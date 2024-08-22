@@ -26,16 +26,16 @@ class Program
 
     static void ShowUsage()
     {
-        Console.WriteLine("Usage: Program <startingDirectory> [-whatif]");
+        Console.WriteLine("Usage: DelEmptyFolders.exe <startingDirectory> [-whatif]");
         Console.WriteLine("");
         Console.WriteLine("Examples:");
-        Console.WriteLine(@"  Program C:\path\to\starting\directory");
-        Console.WriteLine(@"  Program C:\path\to\starting\directory -whatif");
+        Console.WriteLine(@"  DelEmptyFolders.exe C:\path\to\starting\directory");
+        Console.WriteLine(@"  DelEmptyFolders.exe C:\path\to\starting\directory -whatif");
         Console.WriteLine("");
         Console.WriteLine("Help:");
         Console.WriteLine(@"  The program will remove all empty folders in the starting directory and all subdirectories.");
-        Console.WriteLine(@"  Program /?");
-        Console.WriteLine(@"  Program -?");
+        Console.WriteLine(@"  DelEmptyFolders.exe /?");
+        Console.WriteLine(@"  DelEmptyFolders.exe -?");
         Console.WriteLine("");
         Console.WriteLine("Author: Jan Tiedemann");
     }

@@ -12,3 +12,4 @@ C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj
 C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\DelEmptyFolders.pdb
 C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\DelEmptyFolders.genruntimeconfig.cache
 C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\ref\DelEmptyFolders.dll
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\DelEmptyFolders.sourcelink.json
