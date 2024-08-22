@@ -1,12 +1,6 @@
 ﻿using System;
 using System.IO;
 
-/// <summary>
-/// This program removes empty folders from a specified starting directory.
-/// Usage: Program <startingDirectory> [-whatif]
-/// - <startingDirectory>: The directory to start the search for empty folders.
-/// - [-whatif]: Optional flag to indicate a dry run, where no folders are actually deleted.
-/// </summary>
 class Program
 {
     static void Main(string[] args)
@@ -33,6 +27,14 @@ class Program
     static void ShowUsage()
     {
         Console.WriteLine("Usage: Program <startingDirectory> [-whatif]");
+        Console.WriteLine("Examples:");
+        Console.WriteLine(@"  Program C:\path\to\starting\directory");
+        Console.WriteLine(@"  Program C:\path\to\starting\directory -whatif");
+        Console.WriteLine("Help:");
+        Console.WriteLine(@"  Program /?");
+        Console.WriteLine(@"  Program -?");
+        Console.WriteLine("");
+        Console.WriteLine("Author: Jan Tiedemann");
     }
 
     static void RemoveEmptyFolders(string directory, bool whatIf)
