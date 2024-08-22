@@ -14,13 +14,13 @@ class Program
         bool whatIf = args.Length > 1 && args[1] == "-whatif";
         string startingDirectory = args[0];
 
-        if (Directory.Exists(startingDirectory))
+        if (Directory.Exists(startingDirectory) && (File.GetAttributes(startingDirectory) & FileAttributes.Directory) == FileAttributes.Directory)
         {
             RemoveEmptyFolders(startingDirectory, whatIf);
         }
         else
         {
-            Console.WriteLine($"The directory '{startingDirectory}' does not exist.");
+            Console.WriteLine($"The path '{startingDirectory}' is not a valid directory.");
         }
     }
 
