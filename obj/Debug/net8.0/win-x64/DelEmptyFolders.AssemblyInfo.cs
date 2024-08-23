@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DelEmptyFolders")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.1+68b6e93e8d474e0aa4bd06a1cf948229a065477c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.1+992978d768577eec012f6f9bef96644ddd7f077c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DelEmptyFolders")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DelEmptyFolders")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.1")]

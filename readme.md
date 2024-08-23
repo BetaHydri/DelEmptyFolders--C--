@@ -6,6 +6,8 @@
 ```sh
 DelEmptyFolders.exe <startingDirectory> [-whatif]
 ```
-Examples:
+## Examples:
+        ```sh
         DelEmptyFolders.exe C:\path\to\starting\directory
         DelEmptyFolders.exe C:\path\to\starting\directory -whatif
+        ```
