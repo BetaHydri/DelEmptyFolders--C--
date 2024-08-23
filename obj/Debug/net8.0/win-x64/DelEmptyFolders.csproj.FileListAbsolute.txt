@@ -1,0 +1,13 @@
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Debug\net8.0\win-x64\DelEmptyFolders.exe
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Debug\net8.0\win-x64\DelEmptyFolders.deps.json
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Debug\net8.0\win-x64\DelEmptyFolders.runtimeconfig.json
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Debug\net8.0\win-x64\DelEmptyFolders.dll
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Debug\net8.0\win-x64\DelEmptyFolders.pdb
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.AssemblyInfoInputs.cache
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.AssemblyInfo.cs
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.csproj.CoreCompileInputs.cache
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.sourcelink.json
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.dll
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.pdb
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\obj\Debug\net8.0\win-x64\DelEmptyFolders.genruntimeconfig.cache

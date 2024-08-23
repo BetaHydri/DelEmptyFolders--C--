@@ -42,34 +42,57 @@ class Program
 
     static void RemoveEmptyFolders(string directory, bool whatIf)
     {
-        // Get all subdirectories
-        string[] subdirectories = Directory.GetDirectories(directory);
-
-        // Recursively remove empty folders in subdirectories
-        foreach (string subdirectory in subdirectories)
+        try
         {
-            RemoveEmptyFolders(subdirectory, whatIf);
+            // Get all subdirectories
+            string[] subdirectories = Directory.GetDirectories(directory);
+
+            // Recursively remove empty folders in subdirectories
+            foreach (string subdirectory in subdirectories)
+            {
+                RemoveEmptyFolders(subdirectory, whatIf);
+            }
+
+            // Check if the current directory is empty
+            if (Directory.GetFiles(directory).Length == 0 && Directory.GetDirectories(directory).Length == 0)
+            {
+                if (whatIf)
+                {
+                    Console.WriteLine($"[WhatIf] Would delete empty folder: {directory}");
+                }
+                else
+                {
+                    try
+                    {
+                        Directory.Delete(directory);
+                        Console.WriteLine($"Deleted empty folder: {directory}");
+                    }
+                    catch (UnauthorizedAccessException)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Access denied to folder: {directory}. Skipping deletion.");
+                        Console.ResetColor();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Failed to delete folder: {directory}. Error: {ex.Message}");
+                        Console.ResetColor();
+                    }
+                }
+            }
         }
-
-        // Check if the current directory is empty
-        if (Directory.GetFiles(directory).Length == 0 && Directory.GetDirectories(directory).Length == 0)
+        catch (UnauthorizedAccessException)
         {
-            if (whatIf)
-            {
-                Console.WriteLine($"[WhatIf] Would delete empty folder: {directory}");
-            }
-            else
-            {
-                try
-                {
-                    Directory.Delete(directory);
-                    Console.WriteLine($"Deleted empty folder: {directory}");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Failed to delete folder: {directory}. Error: {ex.Message}");
-                }
-            }
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Access denied to folder: {directory}. Skipping.");
+            Console.ResetColor();
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Failed to process folder: {directory}. Error: {ex.Message}");
+            Console.ResetColor();
         }
     }
 }
