@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\jantiede\\OneDrive\\Develop\\DotNET\\C#\\ConsoleVCodeApp\\DelEmptyFolders\\DelEmptyFolders.csproj": {
-      "version": "1.0.0.1",
+      "version": "1.0.0.5",
       "restore": {
         "projectUniqueName": "C:\\Users\\jantiede\\OneDrive\\Develop\\DotNET\\C#\\ConsoleVCodeApp\\DelEmptyFolders\\DelEmptyFolders.csproj",
         "projectName": "DelEmptyFolders",
@@ -42,6 +42,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,6 +61,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
