@@ -1,0 +1,2 @@
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\osx-x64\native\DelEmptyFolders.pdb
+C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\osx-x64\native\DelEmptyFolders
