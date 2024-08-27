@@ -1,5 +1,0 @@
-C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Release\net8.0\DelEmptyFolders.exe
-C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Release\net8.0\DelEmptyFolders.dll
-C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Release\net8.0\DelEmptyFolders.deps.json
-C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Release\net8.0\DelEmptyFolders.runtimeconfig.json
-C:\Users\jantiede\OneDrive\Develop\DotNET\C#\ConsoleVCodeApp\DelEmptyFolders\bin\Release\net8.0\DelEmptyFolders.pdb
