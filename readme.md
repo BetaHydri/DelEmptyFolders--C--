@@ -4,11 +4,13 @@
 
 ## Usage
 ```sh
-DelEmptyFolders.exe <startingDirectory> [-whatif]
+DelEmptyFolders.exe <startingDirectory> [-logFilePath C:\\Temp\\output.log] [-whatif]
 ```
 ## Examples:
 ```sh
 DelEmptyFolders.exe C:\path\to\starting\directory
+
+DelEmptyFolders.exe C:\path\to\starting\directory -LogFilePath C:\path\to\output.log
 
 DelEmptyFolders.exe C:\path\to\starting\directory -whatif
 ```
