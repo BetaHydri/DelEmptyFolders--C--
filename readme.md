@@ -1,6 +1,6 @@
 # DelEmptyFolders
 
-`DelEmptyFolders` is a simple console application written in C# that recursively deletes empty folders starting from a specified directory. It also provides a \"what-if\" mode to simulate the deletion process without actually deleting any folders.
+`DelEmptyFolders` is a simple .NET 8 console application written in C# that recursively deletes empty folders starting from a specified directory. It also provides a \"what-if\" mode to simulate the deletion process without actually deleting any folders.
 
 ## Usage
 ```sh

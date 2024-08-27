@@ -49,23 +49,31 @@ class Program
     {
         Console.WriteLine("Usage: DelEmptyFolders.exe <startingDirectory> [-logFilePath C:\\Temp\\output.log] [-whatif]");
         Console.WriteLine("");
-        Console.WriteLine("Examples:");
+        Console.WriteLine("\x1b[1mExamples:\x1b[0m");
         Console.WriteLine("");
         Console.WriteLine(@"  Delete empty folders:");
+        Console.ForegroundColor=ConsoleColor.Green;
         Console.WriteLine(@"  DelEmptyFolders.exe C:\path\to\starting\directory");
+        Console.ResetColor();
         Console.WriteLine("");
         Console.WriteLine(@"  Delete empty folders and log to file:");
+        Console.ForegroundColor=ConsoleColor.Green;
         Console.WriteLine(@"  DelEmptyFolders.exe C:\path\to\starting\directory -LogFilePath C:\path\to\output.log");
+        Console.ResetColor();
         Console.WriteLine("");
         Console.WriteLine(@"  Simulate deletion:");
+        Console.ForegroundColor=ConsoleColor.Green;
         Console.WriteLine(@"  DelEmptyFolders.exe C:\path\to\starting\directory -whatif");
+        Console.ResetColor();
         Console.WriteLine("");
-        Console.WriteLine("Help:");
+        Console.WriteLine("\x1b[1mDescription:\x1b[0m");
         Console.WriteLine(@"  The program will remove all empty folders in the starting directory and all subdirectories.");
+        Console.WriteLine("");
+        Console.WriteLine("\x1b[1mHelp:\x1b[0m");
         Console.WriteLine(@"  DelEmptyFolders.exe /?");
         Console.WriteLine(@"  DelEmptyFolders.exe -?");
         Console.WriteLine("");
-        Console.WriteLine("Author: Jan Tiedemann");
+        Console.WriteLine("\x1b[1mAuthor:\x1b[0m Jan Tiedemann");
     }
 
     static void RemoveEmptyFolders(string directory, bool whatIf, string logFilePath)
